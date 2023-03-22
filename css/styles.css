@@ -2,6 +2,22 @@ body {
   font-family: "Montserrat";
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: large;
+  color: #8f8f8f;
+}
+
 /****************************** Header ******************************/
 
 #title {
@@ -14,7 +30,7 @@ body {
 }
 /*********** Navbar ***********/
 .navbar {
-  padding: 0 0 4.5rem ;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -34,24 +50,33 @@ body {
 
 /*********** Title & Image ***********/
 
-/* Title */
-
-h1 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
 /* Download Buttons */
 
 .download-button {
-  margin: 5% 3% 5% 0; 
+  margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
 
 .title-image {
   width: 60%;
-  transform: rotate(25deg)
+  transform: rotate(25deg);
 }
+
+/****************************** Features ******************************/
+#features {
+  padding: 7% 15%;
+}
+.feat-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feat-icon {
+  color: #ef8172;
+}
+
+.feat-icon:hover {
+  color: #ff4c68;
+}
+
