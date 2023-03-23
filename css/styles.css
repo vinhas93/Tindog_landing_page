@@ -31,7 +31,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 /*********** Navbar ***********/
 .navbar {
@@ -66,11 +66,15 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
 }
 
 /****************************** Features ******************************/
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 .feat-box {
   text-align: center;
@@ -113,4 +117,55 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/****************************** Pricing ******************************/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/****************************** Call to Action ******************************/
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15% 3%;
+}
+
+#cta h3 {
+  font-size: 3rem;
+}
+
+/****************************** Footer ******************************/
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.footer-icon {
+  padding: 2% 1%;
+}
+
+.copy{
+  font-size: small;
+  font-weight: 600;
+}
+
+/****************************** Medias ******************************/
+
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }

@@ -68,7 +68,7 @@
 
         <!-- Title -->
         <div class="row">
-          <div class="col-lg-6">
+          <div class="title-column col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
             <button type="button" class="btn btn-dark btn-lg download-button">
               <span class="fa-brands fa-apple"></span> Download
@@ -80,7 +80,7 @@
               <span class="fa-brands fa-google-play"></span> Download
             </button>
           </div>
-          <div class="col-lg-6">
+          <div class="title-column col-lg-6">
             <img
               class="title-image"
               src="images/iphone6.png"
@@ -198,41 +198,83 @@
       <h2>A Plan for Every Dog's Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
 
-      <h3>Chihuahua</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-dark"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-block btn-dark">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
 
-      <h3>Labrador</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Mastiff</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-block btn-dark">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
       <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <button type="button" class="btn btn-lg btn-dark download-button">
+        <span class="fa-brands fa-apple"></span> Download
+      </button>
+      <button type="button" class="btn btn-lg btn-light download-button">
+        <span class="fa-brands fa-google-play"></span> Download
+      </button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <span class="footer-icon fa-brands fa-twitter"></span>
+      <span class="footer-icon fa-brands fa-facebook"></span>
+      <span class="footer-icon fa-brands fa-instagram"></span>
+      <span class="footer-icon fa-solid fa-envelope"></span>
+      <p class="copy">© Copyright 2023 TinDog</p>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
