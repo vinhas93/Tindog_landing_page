@@ -7,6 +7,11 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
 
 h3 {
   font-weight: bold;
@@ -80,3 +85,32 @@ p {
   color: #ff4c68;
 }
 
+/****************************** Testimonials ******************************/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
